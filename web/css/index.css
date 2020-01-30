@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+#navigationbar {
+	background-color: #231d1e;	
+}
+
+#header_logo {
+	width: 10%;
+	height: 10%;
+}
+
+p {
+	color: white;
+}
