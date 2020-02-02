@@ -13,13 +13,19 @@
 	<!-- Bootstrap CSS and custom CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="css/template.css">
+	<link type="text/css" rel="stylesheet" href="css/index.css">
+	<link type="text/css" rel="stylesheet" href="css/flipdown.css">
+
+	<script src="js/flipdown.js"></script>
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900&display=swap" rel="stylesheet">
 </head>
 <body style="background: url(assets/images/iuf-background.png); background-size: cover">
+
 	<!-- Header -->
-	<nav class="navbar navbar-expand-md fixed-top navbar-custom d-flex flex-fill navbar-header">
+	<section class="header">
+	<nav class="navbar navbar-expand-md navbar-custom d-flex flex-fill navbar-header">
 	  <a class="navbar-brand ml-1" href="index.html">
 		<img class="header-logo" alt="iuf_logo_brand" src="assets/icons/large.png"/>
 	  </a>
@@ -43,23 +49,58 @@
 		</div>
 	  </div>
 	</nav>
-	
+	</section>
+
 	<!-- Content -->
-	<section class="content overflow-hidden">
-		<div class="top-left-row content-wrapper col-md-12">
-			<p>Hello</p>
+	<section class="content container">
+		<div class="row">
+			<div class="col top-left-half">
+				<div class="container">
+					<img class="clapper" alt="iuf_clapper" src="assets/images/iuf2020-clapper.png" />
+				</div>
+			</div>
+			<div class="col top-right-half">
+				<div class="container">
+					<p class="iuf-desc-1">Indie Un-film Festival is an annual digital film competition hosted by the DLSU Green Media Group.
+					It is an avenue for student directors to inspire others and showcase their work to the public.</p>
+				</div>
+				<div class="container countdown-container">
+					<div class="flipdown" id="flipdown">
+						
+					</div>
+					<p class="iuf-desc-2">DEADLINE OF SUBMISSION</p>
+				</div>
+			</div>
+			<div class="w-100"></div>
+			<div class="col bottom-left-half">
+				<div class="container">
+					<p class="iuf-desc-3">On it's seventeenth year</p>
+					<p class="iuf-desc-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel volutpat sapien. Donec ac erat dui. Nam vel dignissim mi. Quisque eget metus libero. Curabitur gravida nunc luctus mauris mollis commodo. Nullam venenatis, urna hendrerit venenatis ullamcorper, neque justo dignissim nulla, nec pretium dolor nibh et magna. Nam in tincidunt est. Vestibulum eget elit a enim molestie rhoncus non et massa. Aenean dapibus enim non maximus semper. Cras vitae augue lectus. Nunc accumsan nec massa nec aliquam. Etiam imperdiet ornare ullamcorper. Vivamus semper mi at ligula mollis, vel vehicula metus imperdiet. In non iaculis velit.</p>
+					<a href="iuf2020.html">Learn More <span style="font-size:0.8em;">&#9658;</span></a>
+				</div>
+			</div>
+			<div class="col bottom-right-half">
+				<div class="container">
+					<video width="480" height="360" controls>
+						<source src="assets/videos/samplevid.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<nav class="navbar navbar-expand-sm fixed-bottom d-flex justify-content-center flex-fill navbar-custom navbar-footer">
-		<div class="navbar-nav d-flex justify-content-center">
-			<a class="nav-item nav-link" href="https://www.facebook.com/GreenMediaGroup/"><img alt="facebook_icon" src="assets/icons/facebook.png" /></a>
-			<a class="nav-item nav-link" href="https://www.intagram.com/dlsugmg/"><img alt="instagram_icon" src="assets/icons/instagram.png" /></a>
-			<a class="nav-item nav-link" href="https://www.twitter.com/dlsuGMG/"><img alt="twitter_icon" src="assets/icons/twitter.png" /></a>
-			<a class="nav-item nav-link" href="mailto:gmg@dlsu.edu.ph?subject=IUF 2020 Inquiry"><img alt="email_icon" src="assets/icons/email.png" /></a>
-		</div>
-	</nav>
+	<section class="footer">
+		<nav class="navbar navbar-expand-sm d-flex justify-content-center flex-fill navbar-custom navbar-footer">
+			<div class="navbar-nav d-flex justify-content-center">
+				<a class="nav-item nav-link" href="https://www.facebook.com/GreenMediaGroup/"><img alt="facebook_icon" src="assets/icons/facebook.png" /></a>
+				<a class="nav-item nav-link" href="https://www.intagram.com/dlsugmg/"><img alt="instagram_icon" src="assets/icons/instagram.png" /></a>
+				<a class="nav-item nav-link" href="https://www.twitter.com/dlsuGMG/"><img alt="twitter_icon" src="assets/icons/twitter.png" /></a>
+				<a class="nav-item nav-link" href="mailto:gmg@dlsu.edu.ph?subject=IUF 2020 Inquiry"><img alt="email_icon" src="assets/icons/email.png" /></a>
+			</div>
+		</nav>
+	</section>
 	
 	<!-- jQuery, Poppers.js, and Bootstrap.js -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -67,5 +108,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	<!-- Javascripts -->
+	<script src="js/deadline.js"></script>
 </body>
 </html>

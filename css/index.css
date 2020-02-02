@@ -1,0 +1,58 @@
+.content .row .col .clapper {
+    width: 450px;
+    height: 450px;
+}
+
+.content .row .top-right-half .iuf-desc-1,
+.content .row .bottom-left-half .iuf-desc-4,
+.content .row .bottom-left-half .iuf-desc-3,
+.content .row .bottom-left-half a {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.content .row .top-right-half .iuf-desc-2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.content .row .bottom-left-half .iuf-desc-3,
+.content .row .bottom-left-half a {
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: left;
+    text-indent: 0px;
+}
+
+.content .row .bottom-left-half a {
+    color: #000;
+}
+
+.content .row .bottom-left-half a:hover {
+    color: #ff9591;
+    text-decoration: none;
+}
+
+.content .row .top-left-half {
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.content .row .top-right-half {
+    padding-top: 7%;
+}
+
+.countdown-container {
+    padding-top: 5%;
+}
+
+.content {
+    margin-bottom: 50px;
+}

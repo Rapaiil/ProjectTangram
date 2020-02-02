@@ -28,7 +28,7 @@
 
 .navbar-custom .navbar-collapse .navbar-nav .nav-item,
 .navbar-custom .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item  {
-	background-image: linear-gradient(#ffcb9f, #ffcb9f);
+	background-image: linear-gradient(#ff9591, #ff9591);
 	background-position: bottom left;
 	background-size: 0% 2px;
 	background-repeat: no-repeat;
@@ -65,5 +65,5 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
-	background-color: #fff;
+	background-color: #231d1e;
 }
