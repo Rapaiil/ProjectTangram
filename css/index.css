@@ -45,6 +45,10 @@
     padding-left: 5%;
 }
 
+.content .row .bottom-left-half {
+    margin-top: 7%;
+}
+
 .content .row .top-right-half {
     padding-top: 7%;
 }
