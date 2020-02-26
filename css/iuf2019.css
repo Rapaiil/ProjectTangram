@@ -1,14 +1,39 @@
 .winner-link {
-    border: 2px solid red;
-    width: 100px;
+    position: relative;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) {
     .winner-link img {
+        display: block;
         width: 100%;
     }
 }
 
 .winner-link img {
+    display: block;
     max-width: 100%;
 }
+
+.winner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.winner-overlay span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.winner-overlay:hover {
+    opacity: 0;
+    transition: opacity 0.75s ease;
+}
+
