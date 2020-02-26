@@ -1,3 +1,3 @@
-new FlipDown(1582070400, 'flipdown', {
+new FlipDown(1589760000, 'flipdown', {
     theme: 'light'
 }).start();

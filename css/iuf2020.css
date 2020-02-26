@@ -3,25 +3,43 @@
 }
 
 #carouselSlideshow img {
-    height: 300px;
+    height: 600px;
+    opacity: 0.75;
 }
 
 .overlay {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1.25%;
+    max-width: 97.5%;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: 0.5;
+    background: #228a6b;
+    opacity: 0.3;
 }
 
-.overlay span {
+.overlay-caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 27%;
+    left: 11.5%;
     color: #fff;
-    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.slideshow-header {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.slideshow-desc {
+    margin-top: 3%;
+    text-align: justify;
+    width: 900px;
+    letter-spacing: 2px;
+    font-size: 1.2em;
 }
 
 .category-div {
@@ -29,7 +47,6 @@
 }
 
 .category-header, .award-header {
-    margin-top: 2%;
     margin-bottom: -2%;
     text-align: center;
     font-family: 'lemonmilkregular', sans-serif;
@@ -38,8 +55,11 @@
     font-size: 3em;
 }
 
+.category-header {
+    margin-top: 5%;
+}
+
 .category-top, .category-bottom {
-    border: 2px solid red;
     margin-right: 5%;
     padding: 0;
 }
@@ -49,7 +69,7 @@
 }
 
 .category-bottom {
-    margin-top: -20%;
+    margin-top: -15.5%;
 }
 
 .category-top img, .category-bottom img {
@@ -59,10 +79,22 @@
 
 .major-div, .special-div {
     margin: 0 auto;
+    margin-top: 3%;
     font-family: 'Titillium Web', sans-serif;
     width: 200px;
 }
 
 .major-div li, .special-div li {
     list-style-type: none;
+    font-weight: 700;
+}
+
+.major-header, .special-header {
+    font-family: 'lemonmilkregular', sans-serif;
+    font-size: 1.5em;
+    color: #ffcb9f;
+}
+
+.major-header + p {
+    width: 400px;
 }
