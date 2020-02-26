@@ -1,0 +1,14 @@
+.winner-link {
+    border: 2px solid red;
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .winner-link img {
+        width: 100%;
+    }
+}
+
+.winner-link img {
+    max-width: 100%;
+}
