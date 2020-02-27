@@ -1,0 +1,41 @@
+content {
+    text-align: justify;
+}
+
+.guidelines-header, .guidelines-1,
+.guidelines-2, .guidelines-3, .guidelines-4 {
+    font-family: 'lemonmilkregular', sans-serif;
+    letter-spacing: 3px;
+}
+
+.guidelines-1, .guidelines-2,
+.guidelines-3, .guidelines-4 {
+    margin-top: 3%;
+    color: #716b87;
+    font-size: 2.5em;
+}
+
+.guidelines-1-desc, .guidelines-2-desc,
+.guidelines-3-desc, .guidelines-4-desc {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.guidelines-header {
+    margin-top: 5%;
+    font-size: 4em;
+    color: #716b87;
+    text-shadow: 2.5px 2.25px #ff9591;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.guidelines-1-desc ol li {
+    list-style-type: lower-alpha;
+    margin-left: 1.5%;
+}
+
+.guidelines-3-desc ol li {
+    list-style-type: none;
+}
