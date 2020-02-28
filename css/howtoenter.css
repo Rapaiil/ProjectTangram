@@ -1,0 +1,93 @@
+.content {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.mechanics-header, .header-1,
+.header-2, .header-3, .header-4 {
+    font-family: 'lemonmilkregular', sans-serif;
+    font-weight: 400;
+}
+
+.mechanics-header {
+    margin-top: 5%;
+    font-size: 4em;
+    text-align: center;
+    color: #228a6b;
+    text-shadow: 2.5px 2.25px #ff9591;
+    letter-spacing: 7.5px;
+}
+
+.header-1, .header-2,
+.header-3, .header-4 {
+    font-size: 2em;
+}
+
+.header-1 {
+    color: #228a6b;
+}
+
+.header-2 {
+    color: #ff9591;
+}
+
+.header-3 {
+    color: #098993;
+}
+
+.header-4 {
+    color: #716b87;
+}
+
+.mechanics-desc {
+    text-align: center;
+}
+
+#text-desc {
+    margin-left: 5%;
+}
+
+#first-list, #second-list {
+    list-style-type: none;
+    margin-left: 10%;
+    font-style: italic;
+}
+
+#second-list {
+    list-style-type: disc;
+}
+
+#link-desc {
+    margin-left: 10%;
+}
+
+#link-desc a, #link-desc a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#link-desc a:hover, #link-desc a:active {
+    text-decoration: underline;
+    color: #ff9591;
+}
+
+#third-list {
+    list-style-type: none;
+}
+
+#third-sub-list {
+    list-style-type: lower-roman;
+}
+
+#box1 {
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    background-color: #c9b17a;
+    padding: 10px 10px;
+    line-height: 5px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
