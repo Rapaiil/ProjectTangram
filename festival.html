@@ -16,17 +16,19 @@
 	<link type="text/css" rel="stylesheet" href="css/festival.css">
 	<link type="text/css" rel="stylesheet" href="css/fonts/Dock11/stylesheet.css">
 	<link type="text/css" rel="stylesheet" href="css/fonts/LemonMilk/stylesheet.css">
-	<link type="text/css" rel="stylesheet" href="css/slick/slick.css">
-	<link type="text/css" rel="stylesheet" href="css/slick/slick-theme.css">
+	<link type="text/css" rel="stylesheet" href="css/flickity/flickity.css">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900&display=swap" rel="stylesheet">
 </head>
 <body style="background: url(assets/images/iuf-background.png); background-size: contain; background-repeat: repeat;">
 
+	<!-- Loading Screen -->
+	<div id="loading"></div>
+
 	<!-- Header -->
 	<!-- Remove fixed-top class -->
-	<section class="header">
+	<section class="header" id="header">
 	<nav class="navbar navbar-expand-md navbar-dark navbar-custom d-flex flex-fill navbar-header">
 	  <a class="navbar-brand ml-1" href="index.html">
 		<img class="header-logo" alt="iuf_logo_brand" src="assets/icons/large.png"/>
@@ -54,7 +56,7 @@
 	</section>
 
 	<!-- Content -->
-	<section class="content container">
+	<section class="content container" id="content">
 		<div class="row">
 			<div class="w-100"></div>
 			<div class="col top-half-left">
@@ -78,43 +80,43 @@
 			<div class="col"></div>
 		</div>
 		<div class="row">
-			<div class="col container">
-				<div class="slider-area slider">
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/ang lalaking may regla sa gitna ng dagat.png" alt="ang_lalaking_may_regla_sa_gitna_ng_dagat_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/ang lalaking may regla descrip.png" alt="poster_description">
-						</div>
+			<div class="col-12 container row">
+				<div class="col-4 col-s-6">
+					<img class="poster-img" style="width: 400px" src="assets/images/ang lalaking may regla sa gitna ng dagat.png" alt="ang_lalaking_may_regla_sa_gitna_ng_dagat_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/ang lalaking may regla descrip.png" alt="poster_description">
 					</div>
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/heist school.png" alt="heist_school_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/heist school descrip.png" alt="poster_description">
-						</div>
+				</div>
+				<div class="col-4 col-s-6">
+					<img class="poster-img" style="width: 400px" src="assets/images/heist school.png" alt="heist_school_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/heist school descrip.png" alt="poster_description">
 					</div>
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/langit lupa.png" alt="langit_lupa_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/langit lupa descrip.png" alt="poster_description">
-						</div>
+				</div>
+				<div class="col-4 col-s-6">
+					<img class="poster-img" style="width: 400px" src="assets/images/langit lupa.png" alt="langit_lupa_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/langit lupa descrip.png" alt="poster_description">
 					</div>
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/sa gabing taging liwanag.png" alt="sa_gabing_tanging_liwanag_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/sa gabi descrip.png" alt="poster_description">
-						</div>
+				</div>
+			</div>
+			<div class="col-12 container row">
+				<div class="col-4 col-s-6">
+					<img class="poster-img" style="width: 400px" src="assets/images/sa gabing taging liwanag.png" alt="sa_gabing_tanging_liwanag_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/sa gabi descrip.png" alt="poster_description">
 					</div>
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/sa pag agos ng panahon.png" alt="sa_pagagos_ng_panahon_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/sa pagagos ng panohon descrip.png" alt="poster_description">
-						</div>
+				</div>
+				<div class="col-4 col-s-6">
+					<img class="poster-img" style="width: 400px" src="assets/images/sa pag agos ng panahon.png" alt="sa_pagagos_ng_panahon_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/sa pagagos ng panohon descrip.png" alt="poster_description">
 					</div>
-					<div class="poster-item">
-						<img class="poster-img" style="width: 400px" src="assets/images/sa saiyang isla.png" alt="sa_saiyang_isla_image">
-						<div class="overlay">
-							<img class="poster-desc" src="assets/images/sa saiyang isla descrip.png" alt="poster_description">
-						</div>
+				</div>
+				<div class="col-4">
+					<img class="poster-img" style="width: 400px" src="assets/images/sa saiyang isla.png" alt="sa_saiyang_isla_image">
+					<div class="overlay">
+						<img class="poster-desc" src="assets/images/sa saiyang isla descrip.png" alt="poster_description">
 					</div>
 				</div>
 			</div>
@@ -156,7 +158,7 @@
 
 	<!-- Footer -->
 	<!-- Remove fixed-bottom class -->
-	<section class="footer">
+	<section class="footer" id="footer">
 	<nav class="navbar navbar-expand-sm d-flex justify-content-center flex-fill navbar-custom navbar-footer">
 		<div class="navbar-nav d-flex justify-content-center">
 			<a class="nav-item nav-link" href="https://www.facebook.com/GreenMediaGroup/"><img alt="facebook_icon" src="assets/icons/facebook.png" /></a>
@@ -174,20 +176,7 @@
 	<script src="https://code.jquery.com/jquery-migrate-3.1.0.min.js" integrity="sha256-ycJeXbll9m7dHKeaPbXBkZH8BuP99SmPm/8q5O+SbBc=" crossorigin="anonymous"></script>
 	
 	<!-- Javascripts -->
-	<script src="css/slick/slick.js"></script>
-	<script>
-		window.onload=function() {
-			$(".slider-area").slick({
-			infinite: true,
-			slidesToShow: 3,
-			slidesToScroll: 1,
-			autoplay: true,
-			speed: 150,
-			centerMode: true,
-			arrows: false,
-			dots: true
-		});
-		};
-	</script>
+	<script src="js/loading.js"></script>
+	<script src="css/flickity/flickity.pkgd.js"></script>
 </body>
 </html>
