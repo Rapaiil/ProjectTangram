@@ -1,0 +1,18 @@
+#header, #content, #footer {
+    display: none;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/videos/iuf_loading_screen.gif');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
