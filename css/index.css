@@ -60,3 +60,28 @@
 .content {
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .clapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .countdown-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .clapper {  
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
