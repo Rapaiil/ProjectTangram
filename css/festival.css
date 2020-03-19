@@ -125,3 +125,10 @@
     margin-right: auto;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .header-2, .header-3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

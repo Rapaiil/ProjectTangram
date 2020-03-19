@@ -66,11 +66,9 @@
 }
 
 .category-top {
-    margin-top: -3%;
 }
 
 .category-bottom {
-    margin-top: -15.5%;
 }
 
 .category-top img, .category-bottom img {
@@ -117,8 +115,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .category-top, .category-bottom {
+        margin-right: 0;
+    }
     .category-top img, .category-bottom img {
       max-width: 100%;
-      max-height: 100%;
+      width: 400px;
+      height: 300px;
     }
 }
