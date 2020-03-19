@@ -83,5 +83,9 @@
         margin-right: auto;
     }
 
-    
+    .content .row .col .clapper {
+        height: 300px;
+        width: 300px;
+    }
+
 }
