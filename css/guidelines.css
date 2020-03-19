@@ -39,3 +39,14 @@
 .guidelines-3-desc ol li {
     list-style-type: none;
 }
+
+@media screen and (min-width: 375px) {
+    .guidelines-header {
+      font-size: calc(40px + (64 - 40) * ((100vw - 375px) / (1600 - 300)));
+    }
+
+    .guidelines-1, .guidelines-2,
+    .guidelines-3, .guidelines-4  {
+        font-size: calc(30px + (40 - 30) * ((100vw - 375px) / (1600 - 300)));
+    }
+}
