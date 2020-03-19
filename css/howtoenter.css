@@ -96,6 +96,22 @@ td {
     padding: 12px;
 }
 
+.footer {
+    background-color: #000;
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
 @media screen and (min-width: 375px) {
     .mechanics-header {
       font-size: calc(50px + (64 - 50) * ((100vw - 375px) / (1600 - 300)));
