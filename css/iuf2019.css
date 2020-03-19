@@ -10,6 +10,22 @@
     }
 }
 
+.footer {
+    background-color: #000;
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
 .winner-link img {
     display: block;
     max-width: 100%;
