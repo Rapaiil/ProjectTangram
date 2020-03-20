@@ -190,3 +190,56 @@
         width: 300px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    #carouselSlideshow img {
+        height: 230px;
+    }
+    .overlay-caption {
+        top: 15%;
+    }
+    .slideshow-header {
+        letter-spacing: 2px;
+        font-size: 1em;
+    }
+    .slideshow-desc {
+        letter-spacing: 1px;
+        font-size: 12px;
+        text-shadow: 1px 1px black;
+    }
+    .category-header, .award-header {
+        font-size: 2.25em;
+    }
+    .col-md-4 {
+        max-width: 100%;
+    }
+    .category-top {
+        top:-50px;
+    }
+    .category-bottom {
+        top: -75px;
+    }
+    .category-top img, .category-bottom img {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #carouselSlideshow img {
+        height: 200px;
+    }
+    .slideshow-header {
+        font-size: 15px;
+    }
+    .slideshow-desc {
+        font-size: 10px;
+    }
+    .category-header {
+        margin-bottom: 50px;
+    }
+    .category-top img, .category-bottom img {
+        width: 350px;
+        height: 320px;
+    }
+}
