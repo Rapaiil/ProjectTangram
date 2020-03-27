@@ -119,7 +119,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .clapper {
+  .content .row .col .clapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -127,8 +127,19 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .content .row .col .clapper {
+    width: 280px;
+    height: 280px;
+  }
   .header-2, .header-3 {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .overlay img {
+    width: 100%;
+    height: auto;
   }
 }

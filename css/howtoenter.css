@@ -111,6 +111,11 @@ td {
     width: 30px;
     height: 30px;
 }
+@media only screen and (max-width: 425px) {
+    .offset-3 {
+        margin-left: 0;
+    }
+}
 
 @media screen and (min-width: 375px) {
     .mechanics-header {
