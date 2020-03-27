@@ -53,8 +53,8 @@
     height: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
     .faq-header {
-        font-size: 2em;
+        font-size: 1.75em;
     }
 }
